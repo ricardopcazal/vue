@@ -1,5 +1,15 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <shop-list-vuex />
   </div>
 </template>
+<script>
+import shopListVuex from "@/components/ShopListVuex";
+
+export default {
+  name: "AboutView",
+  components: {
+    shopListVuex,
+  },
+};
+</script>
